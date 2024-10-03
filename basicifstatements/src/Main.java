@@ -12,33 +12,33 @@ public class Main {
         int x = Integer.parseInt(choice.nextLine()) ;
         //write an if statement that prints "hello world" if the input was less than 4
 
-        if(x<4){
+        if(x < 4){
             System.out.print("hello world");
         }
 
         //write an if statement that prints out "Why did the man fall down the well?" if the input was less than 5
-        if (x<5){
+        if (x < 5){
             System.out.print("Why did the man fall down the well");
         }
         //write an if statement that prints out "Because he couldn’t see that well." if the input was greater than 1
-        if(x>1){
+        if(x > 1){
             System.out.print("Because he couldn't see that well");
         }
         //write an if statement that prints out "When does a joke become a dad joke?"  if the input was equal to 8
 
-        if (x==8){
+        if (x == 8){
             System.out.print("When does a joke become a dad joke?");
         }
         //write an if statement that prints out "When it becomes apparent."  if the input was greater than or equal to 8
-        if(x>=8){
+        if(x >= 8){
             System.out.print("When it becomes apparent");
         }
         //write an if statement that prints out "I used to hate facial hair," if the input is less than or equal to 12
-        if(x<= 12){
+        if(x <= 12){
             System.out.print("I used to hate facial hair");
         }
         //write an if statement that prints out " but then it grew on me."  if the input does not equal 23
-        if (!(x==23)){
+        if (!(x == 23)){
             System.out.print("but then it grew on me.");
         }
     }
